@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rubikloud Assessment - Tesla" >
+    <listeners>
+        <listener class-name="com.tesla.listeners.TestListener"/>
+    </listeners>
+
+    <test name="RubikloudAssessmentTests">
+        <classes>
+            <class name="com.tesla.tests.RubikloudAssessmentTests"/>
+        </classes>
+    </test>
+    <test name="RubikloudAssessmentTestsFails">
+        <classes>
+            <class name="com.tesla.tests.RubikloudAssessmentTestsFails"/>
+        </classes>
+    </test>
+</suite>

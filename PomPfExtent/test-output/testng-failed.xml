@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [N11 Test Suite]">
+  <listeners>
+    <listener class-name="com.alg.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.alg.tests.LoginTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="invalidLoginTest_EmptyUserEmptyPassword"/>
+        </methods>
+      </class> <!-- com.alg.tests.LoginTests -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="LoginTest2(failed)">
+    <classes>
+      <class name="com.alg.tests.LoginTests2">
+        <methods>
+          <include name="teardown"/>
+          <include name="invalidLoginTest_EmptyUserEmptyPassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.alg.tests.LoginTests2 -->
+    </classes>
+  </test> <!-- LoginTest2(failed) -->
+</suite> <!-- Failed suite [N11 Test Suite] -->

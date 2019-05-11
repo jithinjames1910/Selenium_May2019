@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rubikloud Assessment - Tesla]">
+  <listeners>
+    <listener class-name="com.tesla.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="RubikloudAssessmentTestsFails(failed)">
+    <classes>
+      <class name="com.tesla.tests.RubikloudAssessmentTestsFails">
+        <methods>
+          <include name="checkCarbonImpactCanada"/>
+          <include name="teardown"/>
+          <include name="checkAutopilotFeeInTotalCash"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tesla.tests.RubikloudAssessmentTestsFails -->
+    </classes>
+  </test> <!-- RubikloudAssessmentTestsFails(failed) -->
+</suite> <!-- Failed suite [Rubikloud Assessment - Tesla] -->

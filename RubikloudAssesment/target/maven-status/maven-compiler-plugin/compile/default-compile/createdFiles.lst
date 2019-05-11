@@ -1,0 +1,9 @@
+com\tesla\pages\CarbonImpactPage.class
+com\tesla\pages\MenuPage.class
+com\tesla\utils\StringUtils.class
+com\tesla\pages\DesignStudioPage.class
+com\tesla\reportutils\extentreports\ExtentTestManager.class
+com\tesla\reportutils\extentreports\ExtentManager.class
+com\tesla\pages\BasePage.class
+com\tesla\pages\HomePage.class
+com\tesla\pages\ModelSPage.class

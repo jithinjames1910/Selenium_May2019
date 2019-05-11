@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rubikloud Assessment - Tesla" duration-ms="96549" started-at="2019-04-08T05:33:40Z" finished-at="2019-04-08T05:35:17Z">
+    <groups>
+    </groups>
+    <test name="RubikloudAssessmentTests" duration-ms="49027" started-at="2019-04-08T05:33:40Z" finished-at="2019-04-08T05:34:29Z">
+      <class name="com.tesla.tests.RubikloudAssessmentTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTests@42d80b78]" name="setup" is-config="true" duration-ms="2646" started-at="2019-04-08T05:33:40Z" finished-at="2019-04-08T05:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkAutopilotFeeInTotalCash()[pri:1, instance:com.tesla.tests.RubikloudAssessmentTests@42d80b78]" name="checkAutopilotFeeInTotalCash" duration-ms="13840" started-at="2019-04-08T05:33:43Z" finished-at="2019-04-08T05:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAutopilotFeeInTotalCash -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTests@42d80b78]" name="teardown" is-config="true" duration-ms="10961" started-at="2019-04-08T05:33:57Z" finished-at="2019-04-08T05:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTests@42d80b78]" name="setup" is-config="true" duration-ms="3375" started-at="2019-04-08T05:34:08Z" finished-at="2019-04-08T05:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkCarbonImpactCanada()[pri:2, instance:com.tesla.tests.RubikloudAssessmentTests@42d80b78]" name="checkCarbonImpactCanada" duration-ms="8113" started-at="2019-04-08T05:34:11Z" finished-at="2019-04-08T05:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCarbonImpactCanada -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTests@42d80b78]" name="teardown" is-config="true" duration-ms="10061" started-at="2019-04-08T05:34:19Z" finished-at="2019-04-08T05:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tesla.tests.RubikloudAssessmentTests -->
+    </test> <!-- RubikloudAssessmentTests -->
+    <test name="RubikloudAssessmentTestsFails" duration-ms="47241" started-at="2019-04-08T05:34:29Z" finished-at="2019-04-08T05:35:17Z">
+      <class name="com.tesla.tests.RubikloudAssessmentTestsFails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTestsFails@5f341870]" name="setup" is-config="true" duration-ms="2687" started-at="2019-04-08T05:34:29Z" finished-at="2019-04-08T05:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="checkAutopilotFeeInTotalCash()[pri:1, instance:com.tesla.tests.RubikloudAssessmentTestsFails@5f341870]" name="checkAutopilotFeeInTotalCash" duration-ms="12894" started-at="2019-04-08T05:34:32Z" finished-at="2019-04-08T05:34:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected 'Total cash with AP' - 1000 but found - 118800. |  expected [1000] but found [118800]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected 'Total cash with AP' - 1000 but found - 118800. |  expected [1000] but found [118800]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.tesla.tests.RubikloudAssessmentTestsFails.checkAutopilotFeeInTotalCash(RubikloudAssessmentTestsFails.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAutopilotFeeInTotalCash -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTestsFails@5f341870]" name="teardown" is-config="true" duration-ms="10154" started-at="2019-04-08T05:34:45Z" finished-at="2019-04-08T05:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTestsFails@5f341870]" name="setup" is-config="true" duration-ms="2739" started-at="2019-04-08T05:34:56Z" finished-at="2019-04-08T05:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="checkCarbonImpactCanada()[pri:2, instance:com.tesla.tests.RubikloudAssessmentTestsFails@5f341870]" name="checkCarbonImpactCanada" duration-ms="7763" started-at="2019-04-08T05:34:58Z" finished-at="2019-04-08T05:35:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected 'Canadaaa' to be 5th saver but found Canada. |  expected [Canadaaa] but found [Canada]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected 'Canadaaa' to be 5th saver but found Canada. |  expected [Canadaaa] but found [Canada]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.tesla.tests.RubikloudAssessmentTestsFails.checkCarbonImpactCanada(RubikloudAssessmentTestsFails.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCarbonImpactCanada -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.tesla.tests.RubikloudAssessmentTestsFails@5f341870]" name="teardown" is-config="true" duration-ms="10063" started-at="2019-04-08T05:35:07Z" finished-at="2019-04-08T05:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tesla.tests.RubikloudAssessmentTestsFails -->
+    </test> <!-- RubikloudAssessmentTestsFails -->
+  </suite> <!-- Rubikloud Assessment - Tesla -->
+</testng-results>

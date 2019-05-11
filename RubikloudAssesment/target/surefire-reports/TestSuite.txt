@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 99.12 sec <<< FAILURE! - in TestSuite
+checkAutopilotFeeInTotalCashFails(com.tesla.tests.RubikloudAssessmentTestsFails)  Time elapsed: 12.667 sec  <<< FAILURE!
+java.lang.AssertionError: Expected 'Total cash with AP' - 1000 but found - 118800. |  expected [1000] but found [118800]
+	at com.tesla.tests.RubikloudAssessmentTestsFails.checkAutopilotFeeInTotalCashFails(RubikloudAssessmentTestsFails.java:65)
+
+checkCarbonImpactCanadaFails(com.tesla.tests.RubikloudAssessmentTestsFails)  Time elapsed: 6.946 sec  <<< FAILURE!
+java.lang.AssertionError: Expected 'Canadaaa' to be 5th saver but found Canada. |  expected [Canadaaa] but found [Canada]
+	at com.tesla.tests.RubikloudAssessmentTestsFails.checkCarbonImpactCanadaFails(RubikloudAssessmentTestsFails.java:91)
+
